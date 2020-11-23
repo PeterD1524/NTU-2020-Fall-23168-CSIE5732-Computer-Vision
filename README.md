@@ -25,7 +25,7 @@ serial number | Curriculum Number | Class | Course title | Curriculum Identity N
  * 總人數：120(含開放臺大系統人數:4)
  * 選課限制條件：限學士班三年級以上,本校修課人數上限：116人
 ## Related Repositories
-" * [bearduen](https://github.com/bearduen) / [ComputerVision](https://github.com/bearduen/ComputerVision)
+ * [bearduen](https://github.com/bearduen) / [ComputerVision](https://github.com/bearduen/ComputerVision)
  * [cyl9011](https://github.com/cyl9011) / [NTU-CSIE5732-Computer-Vision](https://github.com/cyl9011/NTU-CSIE5732-Computer-Vision)
  * [PeterD1524](https://github.com/PeterD1524) / [NTU-2020-Fall-23168-CSIE5732-Computer-Vision](https://github.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision)
  * [seventychi](https://github.com/seventychi) / [ntu-csie-computer-vision](https://github.com/seventychi/ntu-csie-computer-vision)
@@ -57,5 +57,6 @@ serial number | Curriculum Number | Class | Course title | Curriculum Identity N
  * [sycLin](https://github.com/sycLin) / [cv-homework-checking-website](https://github.com/sycLin/cv-homework-checking-website)
  * [LucienLee](https://github.com/LucienLee) / [CV-Homework-in-Python](https://github.com/LucienLee/CV-Homework-in-Python)
  * [hsukvn](https://github.com/hsukvn) / [NTU-Computer-Vision](https://github.com/hsukvn/NTU-Computer-Vision)
- * [chunweiliu](https://github.com/chunweiliu) / [ntu-cv](https://github.com/chunweiliu/ntu-cv)"
+ * [chunweiliu](https://github.com/chunweiliu) / [ntu-cv](https://github.com/chunweiliu/ntu-cv)
+
 More detail: https://docs.google.com/spreadsheets/d/16fv9BNkYFvNy0dz_9QwkhTE-5kNbl-P6wLblRnaVhGE/edit?usp=sharing
