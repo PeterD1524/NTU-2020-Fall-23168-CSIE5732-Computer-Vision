@@ -78,6 +78,110 @@
         ]
     },
     {
+        "user": "steakforlife",
+        "repository": "2019NTU_ComputerVision",
+        "url": "https://github.com/steakforlife/2019NTU_ComputerVision/tree/master/R08942125_HW5_ver1/images",
+        "roots": [
+            "https://raw.githubusercontent.com/steakforlife/2019NTU_ComputerVision/master/R08942125_HW5_ver1/images/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "grayScaleDilationImg.png"
+            },
+            {
+                "root": 0,
+                "src": "grayScaleErosionImg.png"
+            },
+            {
+                "root": 0,
+                "src": "grayScaleOpeningImg.png"
+            },
+            {
+                "root": 0,
+                "src": "grayScaleClosingImg.png"
+            }
+        ]
+    },
+    {
+        "user": "CheeAn-Yu",
+        "repository": "NTU-Computer-Vision",
+        "url": "https://github.com/CheeAn-Yu/NTU-Computer-Vision/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/CheeAn-Yu/NTU-Computer-Vision/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "dilation.png"
+            },
+            {
+                "root": 0,
+                "src": "erosion.png"
+            },
+            {
+                "root": 0,
+                "src": "opening.png"
+            },
+            {
+                "root": 0,
+                "src": "closing.png"
+            }
+        ]
+    },
+    {
+        "user": "Nicetiesniceties",
+        "repository": "ntucsie-Computer-Vision1",
+        "url": "https://github.com/Nicetiesniceties/ntucsie-Computer-Vision1/tree/master/B05902019_HW5_ver1",
+        "roots": [
+            "https://raw.githubusercontent.com/Nicetiesniceties/ntucsie-Computer-Vision1/master/B05902019_HW5_ver1/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "dilation.png"
+            },
+            {
+                "root": 0,
+                "src": "erosion.png"
+            },
+            {
+                "root": 0,
+                "src": "opening.png"
+            },
+            {
+                "root": 0,
+                "src": "closing.png"
+            }
+        ]
+    },
+    {
+        "user": "itsmystyle",
+        "repository": "Computer-Vision",
+        "url": "https://github.com/itsmystyle/Computer-Vision/tree/master/R07922141_HW5_ver1",
+        "roots": [
+            "https://raw.githubusercontent.com/itsmystyle/Computer-Vision/master/R07922141_HW5_ver1/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "dilation_lena.png"
+            },
+            {
+                "root": 0,
+                "src": "erosion_lena.png"
+            },
+            {
+                "root": 0,
+                "src": "opening_lena.png"
+            },
+            {
+                "root": 0,
+                "src": "closing_lena.png"
+            }
+        ]
+    },
+    {
         "user": "JasonYao81000",
         "repository": "CV2017Fall",
         "url": "https://github.com/JasonYao81000/CV2017Fall/tree/master/HW5/HW5",
@@ -100,6 +204,32 @@
             {
                 "root": 0,
                 "src": "closing.bmp"
+            }
+        ]
+    },
+    {
+        "user": "Alexpon",
+        "repository": "Computer_Vision",
+        "url": "https://github.com/Alexpon/Computer_Vision/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/Alexpon/Computer_Vision/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_dilation.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_erosion.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_opening.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_closing.bmp"
             }
         ]
     },
