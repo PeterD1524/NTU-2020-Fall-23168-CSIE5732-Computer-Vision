@@ -1,27 +1,79 @@
 [
     {
-        "user": "haribo0915",
-        "repository": "ComputerVision",
-        "url": "https://github.com/haribo0915/ComputerVision/tree/master/hw5",
+        "user": "cyl9011",
+        "repository": "NTU-CSIE5732-Computer-Vision",
+        "url": "https://github.com/cyl9011/NTU-CSIE5732-Computer-Vision/tree/main/hw5",
         "roots": [
-            "https://raw.githubusercontent.com/haribo0915/ComputerVision/master/hw5/"
+            "https://raw.githubusercontent.com/cyl9011/NTU-CSIE5732-Computer-Vision/main/hw5/"
         ],
         "files": [
             {
                 "root": 0,
-                "src": "grayDilation.bmp"
+                "src": "dilation.bmp"
             },
             {
                 "root": 0,
-                "src": "grayErosion.bmp"
+                "src": "erosion.bmp"
             },
             {
                 "root": 0,
-                "src": "grayOpen.bmp"
+                "src": "opening.bmp"
             },
             {
                 "root": 0,
-                "src": "grayClose.bmp"
+                "src": "closing.bmp"
+            }
+        ]
+    },
+    {
+        "user": "PeterD1524",
+        "repository": "NTU-2020-Fall-23168-CSIE5732-Computer-Vision",
+        "url": "https://github.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision/tree/main/Homework%205",
+        "roots": [
+            "https://raw.githubusercontent.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision/main/Homework%205/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "a.png"
+            },
+            {
+                "root": 0,
+                "src": "b.png"
+            },
+            {
+                "root": 0,
+                "src": "c.png"
+            },
+            {
+                "root": 0,
+                "src": "d.png"
+            }
+        ]
+    },
+    {
+        "user": "seventychi",
+        "repository": "ntu-csie-computer-vision",
+        "url": "https://github.com/seventychi/ntu-csie-computer-vision/tree/main/Hw5/Answers",
+        "roots": [
+            "https://raw.githubusercontent.com/seventychi/ntu-csie-computer-vision/main/Hw5/Answers/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "a.png"
+            },
+            {
+                "root": 0,
+                "src": "b.png"
+            },
+            {
+                "root": 0,
+                "src": "c.png"
+            },
+            {
+                "root": 0,
+                "src": "d.png"
             }
         ]
     },
@@ -52,6 +104,58 @@
         ]
     },
     {
+        "user": "emu1200tra",
+        "repository": "NTU-CSIE-Computer-Vision-2019",
+        "url": "https://github.com/emu1200tra/NTU-CSIE-Computer-Vision-2019/tree/main/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/emu1200tra/NTU-CSIE-Computer-Vision-2019/main/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "dilation.jpg"
+            },
+            {
+                "root": 0,
+                "src": "erosion.jpg"
+            },
+            {
+                "root": 0,
+                "src": "opening.jpg"
+            },
+            {
+                "root": 0,
+                "src": "closing.jpg"
+            }
+        ]
+    },
+    {
+        "user": "haribo0915",
+        "repository": "ComputerVision",
+        "url": "https://github.com/haribo0915/ComputerVision/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/haribo0915/ComputerVision/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "grayDilation.bmp"
+            },
+            {
+                "root": 0,
+                "src": "grayErosion.bmp"
+            },
+            {
+                "root": 0,
+                "src": "grayOpen.bmp"
+            },
+            {
+                "root": 0,
+                "src": "grayClose.bmp"
+            }
+        ]
+    },
+    {
         "user": "JohnTseng0918",
         "repository": "Computer-Vision-NTU-2019",
         "url": "https://github.com/JohnTseng0918/Computer-Vision-NTU-2019/tree/master/hw5",
@@ -74,6 +178,32 @@
             {
                 "root": 0,
                 "src": "lena_closing.bmp"
+            }
+        ]
+    },
+    {
+        "user": "neil1373",
+        "repository": "CV2019",
+        "url": "https://github.com/neil1373/CV2019/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/neil1373/CV2019/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_gry_dilation.jpeg"
+            },
+            {
+                "root": 0,
+                "src": "lena_gry_erosion.jpeg"
+            },
+            {
+                "root": 0,
+                "src": "lena_gry_opening.jpeg"
+            },
+            {
+                "root": 0,
+                "src": "lena_gry_closing.jpeg"
             }
         ]
     },
@@ -130,6 +260,32 @@
         ]
     },
     {
+        "user": "itsmystyle",
+        "repository": "Computer-Vision",
+        "url": "https://github.com/itsmystyle/Computer-Vision/tree/master/R07922141_HW5_ver1",
+        "roots": [
+            "https://raw.githubusercontent.com/itsmystyle/Computer-Vision/master/R07922141_HW5_ver1/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "dilation_lena.png"
+            },
+            {
+                "root": 0,
+                "src": "erosion_lena.png"
+            },
+            {
+                "root": 0,
+                "src": "opening_lena.png"
+            },
+            {
+                "root": 0,
+                "src": "closing_lena.png"
+            }
+        ]
+    },
+    {
         "user": "Nicetiesniceties",
         "repository": "ntucsie-Computer-Vision1",
         "url": "https://github.com/Nicetiesniceties/ntucsie-Computer-Vision1/tree/master/B05902019_HW5_ver1",
@@ -156,28 +312,54 @@
         ]
     },
     {
-        "user": "itsmystyle",
-        "repository": "Computer-Vision",
-        "url": "https://github.com/itsmystyle/Computer-Vision/tree/master/R07922141_HW5_ver1",
+        "user": "csdai0324",
+        "repository": "NTUCV2017Fall",
+        "url": "https://github.com/csdai0324/NTUCV2017Fall/tree/master/hw5",
         "roots": [
-            "https://raw.githubusercontent.com/itsmystyle/Computer-Vision/master/R07922141_HW5_ver1/"
+            "https://raw.githubusercontent.com/csdai0324/NTUCV2017Fall/master/hw5/"
         ],
         "files": [
             {
                 "root": 0,
-                "src": "dilation_lena.png"
+                "src": "dilation_lena.bmp"
             },
             {
                 "root": 0,
-                "src": "erosion_lena.png"
+                "src": "erosion_lena.bmp"
             },
             {
                 "root": 0,
-                "src": "opening_lena.png"
+                "src": "opening_img.bmp"
             },
             {
                 "root": 0,
-                "src": "closing_lena.png"
+                "src": "closing_lena.bmp"
+            }
+        ]
+    },
+    {
+        "user": "emu1200tra",
+        "repository": "ntu_computer_vision",
+        "url": "https://github.com/emu1200tra/ntu_computer_vision/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/emu1200tra/ntu_computer_vision/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "gray_dilation.bmp"
+            },
+            {
+                "root": 0,
+                "src": "gray_erosion.bmp"
+            },
+            {
+                "root": 0,
+                "src": "gray_opening.bmp"
+            },
+            {
+                "root": 0,
+                "src": "gray_closing.bmp"
             }
         ]
     },
