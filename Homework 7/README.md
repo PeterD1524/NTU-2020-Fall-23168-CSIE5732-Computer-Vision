@@ -1,5 +1,5 @@
 # Homework 7
-Thinning
+> Thinning
 ### Due Date: 11/24
 ### Description
 Write a program which does thinning on a downsampled image (lena.bmp).
