@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Laplace Mask1",
+        "filename": "Laplace Mask1.png"
+    },
+    {
+        "title": "Laplace Mask2",
+        "filename": "Laplace Mask2.png"
+    },
+    {
+        "title": "Minimum variance Laplacian",
+        "filename": "Minimum variance Laplacian.png"
+    },
+    {
+        "title": "Laplace of Gaussian",
+        "filename": "Laplace of Gaussian.png"
+    },
+    {
+        "title": "Difference of Gaussian",
+        "filename": "Difference of Gaussian.png"
+    }
+]

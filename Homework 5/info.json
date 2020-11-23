@@ -1,0 +1,18 @@
+[
+    {
+        "title": "(a) Dilation",
+        "filename": "a.png"
+    },
+    {
+        "title": "(b) Erosion",
+        "filename": "b.png"
+    },
+    {
+        "title": "(c) Opening",
+        "filename": "c.png"
+    },
+    {
+        "title": "(d) Closing",
+        "filename": "d.png"
+    }
+]

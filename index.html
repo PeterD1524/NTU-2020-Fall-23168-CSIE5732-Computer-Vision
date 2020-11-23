@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- https://github.com/j40903272/CV2017 -->
+  <!-- https://github.com/yfancc20/hw-computer-vision -->
+  <!-- https://github.com/mhfu0/CV2018 -->
+  <!-- https://github.com/sycLin/cv-homework-checking-website -->
+  <!-- https://www.csie.ntu.edu.tw/~b01902044/cv-homework-checking-website/ -->
+  <!-- https://github.com/ntu-homeworks/CV-homework -->
+  <!-- https://github.com/orbxball/CV -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <title>109-1_23168_CSIE5732</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Material+Icons">
+  <style>
+    body {
+      background-color: gainsboro;
+      font-family: 'Roboto';
+    }
+
+    input {
+      font-family: inherit;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    async function fetchText(url) {
+      let request = new Request(url);
+      const response = await fetch(request).then(function (response) {
+        if (response.ok === false) {
+          let object = {};
+          object.text = function () {
+            return "null";
+          }
+          return object;
+        }
+        return response;
+      });
+      return response.text();
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+      let body = document.getElementsByTagName('body')[0];
+      function tree(info, div, root) {
+        let span = document.createElement('span');
+        let alien;
+        (async function () {
+          alien = JSON.parse(await fetchText(`${root}/aliens.json`));
+        })();
+        for (let i = 0; i < info.length; i++) {
+          let divdiv = document.createElement('div');
+          let divdivdiv = document.createElement('div');
+          let h4 = document.createElement('h4');
+          h4.textContent = info[i]['title'];
+          h4.style.display = 'inline-block';
+          h4.style.verticalAlign = 'middle';
+          h4.style.marginRight = '0.5em';
+          divdivdiv.appendChild(h4);
+          let idiomaticText = document.createElement('i');
+          idiomaticText.style.verticalAlign = 'middle';
+          idiomaticText.style.marginRight = '0.5em';
+          idiomaticText.classList.add('material-icons');
+          idiomaticText.style.cursor = 'default';
+          idiomaticText.textContent = 'help'
+          idiomaticText.style.color = 'gray';
+          idiomaticText.title = 'Upload the image for comparison.'
+          divdivdiv.appendChild(idiomaticText);
+          divdiv.appendChild(divdivdiv);
+          let aliendiv = document.createElement('div');
+          aliendiv.style.display = 'none';
+          divdiv.appendChild(aliendiv);
+          let input = document.createElement('input');
+          input.style.verticalAlign = 'middle';
+          divdivdiv.appendChild(input);
+          let alienidiomaticText = [];
+          let alienanchor = [];
+          let alienSrc = [];
+          let alienDetail = [];
+          let alienInterval = setInterval(function () {
+            if (alien !== undefined) {
+              clearInterval(alienInterval);
+              if (alien !== null) {
+                aliendiv.style.marginTop = '0.5em';
+                aliendiv.style.marginBottom = '0.5em';
+                for (let j = 0; j < alien.length; j++) {
+                  let aliendivdiv = document.createElement('div');
+                  let alienspan = document.createElement('span');
+                  alienspan.style.display = 'inline-block';
+                  let anchor = document.createElement('a');
+                  anchor.textContent = `${alien[j]['user']}`;
+                  anchor.href = `https://github.com/${alien[j]['user']}`;
+                  anchor.target = '_blank'
+                  anchor.style.color = '#0366d6';
+                  anchor.style.textDecoration = 'none';
+                  alienspan.appendChild(anchor);
+                  let alienspanspan = document.createElement('span');
+                  alienspanspan.style.paddingLeft = '0.25em';
+                  alienspanspan.style.paddingRight = '0.25em';
+                  alienspanspan.textContent = '/';
+                  alienspan.appendChild(alienspanspan);
+                  anchor = document.createElement('a');
+                  anchor.textContent = `${alien[j]['repository']}`;
+                  anchor.href = alien[j]['url'];
+                  anchor.target = '_blank'
+                  anchor.style.color = '#0366d6';
+                  anchor.style.fontWeight = 'bold';
+                  anchor.style.textDecoration = 'none';
+                  anchor.style.display = 'inline-block';
+                  anchor.style.marginRight = '1em';
+                  alienspan.appendChild(anchor);
+                  anchor = document.createElement('a');
+                  anchor.textContent = `${alien[j]['files'][i]['src']}`;
+                  anchor.href = alien[j]['roots'][alien[j]['files'][i]['root']] + alien[j]['files'][i]['src'];
+                  anchor.target = '_blank';
+                  anchor.style.marginRight = '0.5em';
+                  anchor.style.display = 'inline-block';
+                  alienspan.appendChild(anchor);
+                  alienspanspan = document.createElement('span');
+                  let alienImage = new Image();
+                  alienImage.addEventListener('load', function (event) {
+                    alienspanspan.textContent = `(${event.target.width}×${event.target.height})`;
+                  });
+                  alienImage.src = anchor.href;
+                  alienspanspan.style.display = 'inline-block';
+                  alienspan.appendChild(alienspanspan);
+                  alienspan.style.verticalAlign = 'middle';
+                  alienspan.style.marginRight = '1em';
+                  aliendivdiv.appendChild(alienspan);
+                  alienSrc.push(undefined);
+                  alienidiomaticText.push(document.createElement('i'));
+                  alienanchor.push(document.createElement('a'));
+                  alienanchor[j].target = '_blank';
+                  alienidiomaticText[j].style.verticalAlign = 'middle';
+                  alienidiomaticText[j].style.cursor = 'default';
+                  alienidiomaticText[j].classList.add('material-icons');
+                  alienidiomaticText[j].textContent = 'hourglass_top';
+                  alienidiomaticText[j].removeAttribute('title');
+                  alienidiomaticText[j].style.color = 'gray';
+                  alienidiomaticText[j].style.visibility = 'hidden';
+                  alienidiomaticText[j].style.marginRight = '0.5em';
+                  alienanchor[j].appendChild(alienidiomaticText[j]);
+                  aliendivdiv.appendChild(alienanchor[j]);
+                  alienDetail.push(document.createElement('a'));
+                  alienDetail[j].textContent = 'view detail';
+                  alienDetail[j].target = '_blank';
+                  alienDetail[j].style.display = 'none';
+                  aliendivdiv.appendChild(alienDetail[j]);
+                  aliendiv.appendChild(aliendivdiv);
+                }
+              }
+            }
+          }, 100);
+          let img = document.createElement('img');
+          img.src = `${root}/${info[i]['filename']}`;
+          img.style.marginRight = '1em';
+          img.style.maxWidth = '100%';
+          img.style.marginTop = '1em';
+          img.addEventListener('load', function (event) {
+            img.title = `${info[i]['filename']} (${event.target.width}×${event.target.height})`;
+          });
+          divdiv.appendChild(img);
+          let remoteImage = new Image();
+          let remoteimg = document.createElement('img');
+          remoteimg.style.maxWidth = '100%';
+          divdiv.appendChild(remoteimg);
+          input.type = 'file';
+          input.addEventListener('change', function (event) {
+            aliendiv.style.display = '';
+            if (event.target.files.length > 0) {
+              idiomaticText.style.color = 'gray';
+              idiomaticText.textContent = 'hourglass_top';
+              idiomaticText.removeAttribute('title');
+              let file = event.target.files[0];
+              console.log(file);
+              if (file.type.startsWith('image/')) {
+                let reader = new FileReader();
+                let remoteSrc = URL.createObjectURL(file);
+                reader.addEventListener('load', function (event) {
+                  let remoteCanvas = document.createElement('canvas');
+                  let remoteCtx = remoteCanvas.getContext('2d');
+                  function remoteImageLoadHandler(event) {
+                    event.target.removeEventListener('load', remoteImageLoadHandler);
+                    remoteCanvas.width = event.target.width;
+                    remoteCanvas.height = event.target.height;
+                    remoteimg.title = `${file.name} (${event.target.width}×${event.target.height})`;
+                    remoteCtx.drawImage(event.target, 0, 0);
+                    let remoteImageData = remoteCtx.getImageData(0, 0, remoteCanvas.width, remoteCanvas.height);
+                    console.log(remoteImageData);
+                    let canvas = document.createElement('canvas');
+                    let ctx = canvas.getContext('2d');
+                    let image = new Image();
+                    image.addEventListener('load', function (event) {
+                      canvas.width = event.target.width;
+                      canvas.height = event.target.height;
+                      ctx.drawImage(event.target, 0, 0);
+                      let imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+                      if (remoteImageData.width === imageData.width && remoteImageData.height === imageData.height) {
+                        let index = 0;
+                        for (; index < remoteImageData.data.length; index++) {
+                          if (remoteImageData.data[index] !== imageData.data[index]) {
+                            idiomaticText.style.color = 'red';
+                            idiomaticText.textContent = 'thumb_down';
+                            idiomaticText.title = 'The two images do not match.';
+                            break;
+                          }
+                        }
+                        if (index === remoteImageData.data.length) {
+                          idiomaticText.style.color = 'green';
+                          idiomaticText.textContent = 'thumb_up';
+                          idiomaticText.title = 'The two images match.';
+                        }
+                      } else {
+                        idiomaticText.style.color = 'red';
+                        idiomaticText.textContent = 'thumb_down';
+                        idiomaticText.title = 'The two images do not match.';
+                      }
+                    });
+                    image.src = img.src;
+                    let alienInterval = setInterval(() => {
+                      if (alien !== undefined) {
+                        clearInterval(alienInterval);
+                        if (alien !== null) {
+                          for (let j = 0; j < alien.length; j++) {
+                            if (alienanchor[j] !== undefined) {
+                              alienanchor[j].removeAttribute('href');
+                            }
+                            if (alienidiomaticText[j] !== undefined) {
+                              alienidiomaticText[j].style.visibility = '';
+                              alienidiomaticText[j].textContent = 'hourglass_top';
+                              alienidiomaticText[j].style.cursor = 'default';
+                              alienidiomaticText[j].removeAttribute('title');
+                              alienidiomaticText[j].style.color = 'gray';
+                            }
+                            if (alienDetail[j] !== undefined) {
+                              alienDetail[j].style.display = 'none';
+                            }
+                            let alienCanvas = document.createElement('canvas');
+                            let alienCtx = alienCanvas.getContext('2d');
+                            let alienImage = new Image();
+                            alienImage.addEventListener('load', function (event) {
+                              alienCanvas.width = event.target.width;
+                              alienCanvas.height = event.target.height;
+                              alienCtx.drawImage(event.target, 0, 0);
+                              let alienImageData = alienCtx.getImageData(0, 0, alienCanvas.width, alienCanvas.height);
+                              let match = false;
+                              if (remoteImageData.width === alienImageData.width && remoteImageData.height === alienImageData.height) {
+                                let index = 0;
+                                for (; index < remoteImageData.data.length; index++) {
+                                  if (remoteImageData.data[index] !== alienImageData.data[index]) {
+                                    alienidiomaticText[j].style.cursor = 'pointer';
+                                    let url = new URL('examine.html', window.location.href);
+                                    url.searchParams.set('local', encodeURIComponent(alienSrc[j]));
+                                    url.searchParams.set('remote', encodeURIComponent(remoteSrc));
+                                    url.searchParams.set('localName', encodeURIComponent(`${alien[j]['user']} / ${alien[j]['repository']} ${alien[j]['files'][i]['src']}`));
+                                    url.searchParams.set('remoteName', encodeURIComponent(`${file.name}`));
+                                    alienanchor[j].href = url.toString();
+                                    alienDetail[j].href = url.toString();
+                                    alienDetail[j].style.display = '';
+                                    match = false;
+                                    break;
+                                  }
+                                }
+                                if (index === remoteImageData.data.length) {
+                                  match = true;
+                                }
+                              } else {
+                                alienidiomaticText[j].style.cursor = 'default';
+                                match = false;
+                              }
+                              let alienidiomaticTextInterval = setInterval(() => {
+                                if (alienidiomaticText[j] !== undefined) {
+                                  clearInterval(alienidiomaticTextInterval);
+                                  if (match === true) {
+                                    alienanchor[j].removeAttribute('href');
+                                    alienDetail[j].removeAttribute('href');
+                                    alienDetail[j].style.display = 'none';
+                                    alienidiomaticText[j].style.cursor = 'default';
+                                    alienidiomaticText[j].style.color = 'green';
+                                    alienidiomaticText[j].textContent = 'thumb_up';
+                                    alienidiomaticText[j].title = 'The image matches.';
+                                  } else if (match === false) {
+                                    alienidiomaticText[j].style.color = 'red';
+                                    alienidiomaticText[j].textContent = 'thumb_down';
+                                    alienidiomaticText[j].title = 'The image does not match.';
+                                  }
+                                }
+                              }, 50);
+                            });
+                            let src = alien[j]['files'][i]['src'];
+                            if (alien[j]['files'][i]['root'] >= 0) {
+                              src = alien[j]['roots'][alien[j]['files'][i]['root']] + src;
+                            }
+                            let alienRequest = new Request(src);
+                            fetch(alienRequest).then(function (response) {
+                              return response.blob();
+                            }).then(function (blob) {
+                              src = URL.createObjectURL(blob);
+                              alienSrc[j] = src;
+                              alienImage.src = src;
+                            });
+                          }
+                        }
+                      }
+                    }, 100);
+                  }
+                  remoteImage.addEventListener('load', remoteImageLoadHandler);
+                  remoteImage.src = event.target.result;
+                  remoteimg.src = event.target.result;
+                  remoteimg.style.display = '';
+                });
+                reader.readAsDataURL(file);
+              } else {
+                idiomaticText.style.color = 'red';
+                idiomaticText.textContent = 'error';
+                idiomaticText.title = 'The main type of the file\'s MIME type is not "image".';
+                remoteimg.style.display = 'none';
+              }
+            }
+          });
+          span.appendChild(divdiv);
+        }
+        div.appendChild(span);
+      }
+      (async function () {
+        let homework = JSON.parse(await fetchText(`Homeworks.json`));
+        let i = 0;
+        async function displayHomework() {
+          if (i >= homework.length) return;
+          let info = JSON.parse(await fetchText(`${homework[i]}/info.json`));
+          let div = document.createElement('div');
+          let divdiv = document.createElement('div');
+          let divdiv_1 = document.createElement('div');
+          let h3 = document.createElement('h3');
+          h3.textContent = homework[i];
+          h3.style.display = 'inline-block';
+          h3.style.verticalAlign = 'middle';
+          let button = document.createElement('button');
+          button.style.verticalAlign = 'middle';
+          button.style.margin = '0.25em';
+          button.style.background = 'transparent';
+          button.style.border = 'none';
+          button.style.cursor = 'pointer';
+          let idiomaticText = document.createElement('i');
+          idiomaticText.classList.add('material-icons');
+          idiomaticText.style.verticalAlign = 'middle';
+          idiomaticText.style.padding = '0.25em';
+          idiomaticText.textContent = 'expand_less';
+          divdiv.addEventListener('click', function (event) {
+            if (idiomaticText.textContent === 'expand_less') {
+              divdiv_1.style.display = 'none';
+              idiomaticText.textContent = 'expand_more';
+            } else if (idiomaticText.textContent === 'expand_more') {
+              divdiv_1.style.display = '';
+              idiomaticText.textContent = 'expand_less';
+            }
+          });
+          divdiv.style.cursor = 'pointer';
+          button.appendChild(idiomaticText);
+          divdiv.appendChild(button);
+          divdiv.appendChild(h3);
+          div.appendChild(divdiv);
+          if (homework[i] != 'Homework 7') {
+            divdiv.click();
+          }
+          let hr = document.createElement('hr');
+          div.appendChild(hr);
+          div.appendChild(divdiv_1);
+          tree(info, divdiv_1, homework[i]);
+          body.appendChild(div);
+          i++;
+          displayHomework();
+        }
+        displayHomework();
+      })();
+    });
+  </script>
+</body>
+
+</html>

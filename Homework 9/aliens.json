@@ -1,0 +1,306 @@
+[
+    {
+        "user": "Alfons0329",
+        "repository": "CV_Fall_2019",
+        "url": "https://github.com/Alfons0329/CV_Fall_2019/tree/master/HW9",
+        "roots": [
+            "https://raw.githubusercontent.com/Alfons0329/CV_Fall_2019/master/HW9/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_Robert.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_Prewitt.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_Sobel.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_Frei_Chen.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_Kirsch.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_Robinson.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_NB.png"
+            }
+        ]
+    },
+    {
+        "user": "JohnTseng0918",
+        "repository": "Computer-Vision-NTU-2019",
+        "url": "https://github.com/JohnTseng0918/Computer-Vision-NTU-2019/tree/master/hw9",
+        "roots": [
+            "https://raw.githubusercontent.com/JohnTseng0918/Computer-Vision-NTU-2019/master/hw9/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_Roberts.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_Prewitt.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_Sobel.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_Frei and Chen.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_Kirsch.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_Robinson.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_Nevatia-Babu.bmp"
+            }
+        ]
+    },
+    {
+        "user": "JasonYao81000",
+        "repository": "CV2017Fall",
+        "url": "https://github.com/JasonYao81000/CV2017Fall/tree/master/HW9/HW9",
+        "roots": [
+            "https://raw.githubusercontent.com/JasonYao81000/CV2017Fall/master/HW9/HW9/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "Robert.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Prewitt.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Sobel.bmp"
+            },
+            {
+                "root": 0,
+                "src": "FreiChen.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Kirsch.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Robinson.bmp"
+            },
+            {
+                "root": 0,
+                "src": "NevatiaBabu.bmp"
+            }
+        ]
+    },
+    {
+        "user": "Mike-Zheng",
+        "repository": "NTU-Computer-Vision-I-",
+        "url": "https://github.com/Mike-Zheng/NTU-Computer-Vision-I-/tree/master/hw9",
+        "roots": [
+            "https://raw.githubusercontent.com/Mike-Zheng/NTU-Computer-Vision-I-/master/hw9/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "robertOperator.bmp"
+            },
+            {
+                "root": 0,
+                "src": "prewittEdgeDetector.bmp"
+            },
+            {
+                "root": 0,
+                "src": "sobelEdgeDetector.bmp"
+            },
+            {
+                "root": 0,
+                "src": "freiandChenGradientOperator.bmp"
+            },
+            {
+                "root": 0,
+                "src": "kirschCompassOperator.bmp"
+            },
+            {
+                "root": 0,
+                "src": "robinsonCompassOperator.bmp"
+            },
+            {
+                "root": 0,
+                "src": "nevatiaBabu55Operator.bmp"
+            }
+        ]
+    },
+    {
+        "user": "iamyuanchung",
+        "repository": "Fall-2015-CV",
+        "url": "https://github.com/iamyuanchung/Fall-2015-CV/tree/master/hw9",
+        "roots": [
+            "https://raw.githubusercontent.com/iamyuanchung/Fall-2015-CV/master/hw9/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena.roberts.12.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.prewitt.24.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.sobel.38.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.frei.30.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.kirsch.135.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.robinson.43.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.nevatia.12500.bmp"
+            }
+        ]
+    },
+    {
+        "user": "sycLin",
+        "repository": "computer-vision-homework",
+        "url": "https://github.com/sycLin/computer-vision-homework/tree/master/hw9",
+        "roots": [
+            "https://raw.githubusercontent.com/sycLin/computer-vision-homework/master/hw9/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "robert_30.bmp"
+            },
+            {
+                "root": 0,
+                "src": "prewitt_24.bmp"
+            },
+            {
+                "root": 0,
+                "src": "sobel_38.bmp"
+            },
+            {
+                "root": 0,
+                "src": "frei_and_chen_30.bmp"
+            },
+            {
+                "root": 0,
+                "src": "kirsch_135.bmp"
+            },
+            {
+                "root": 0,
+                "src": "robinson_43.bmp"
+            },
+            {
+                "root": 0,
+                "src": "nevatia_and_babu_12500.bmp"
+            }
+        ]
+    },
+    {
+        "user": "LucienLee",
+        "repository": "CV-Homework-in-Python",
+        "url": "https://github.com/LucienLee/CV-Homework-in-Python/tree/master/hw9",
+        "roots": [
+            "https://raw.githubusercontent.com/LucienLee/CV-Homework-in-Python/master/hw9/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "robert_30.jpg"
+            },
+            {
+                "root": 0,
+                "src": "prewitt_24.jpg"
+            },
+            {
+                "root": 0,
+                "src": "sobel_38.jpg"
+            },
+            {
+                "root": 0,
+                "src": "freichen_30.jpg"
+            },
+            {
+                "root": 0,
+                "src": "kirsch_135.jpg"
+            },
+            {
+                "root": 0,
+                "src": "robinson_43.jpg"
+            },
+            {
+                "root": 0,
+                "src": "nevatiababu_12500.jpg"
+            }
+        ]
+    },
+    {
+        "user": "hsukvn",
+        "repository": "NTU-Computer-Vision",
+        "url": "https://github.com/hsukvn/NTU-Computer-Vision/tree/master/hw_9",
+        "roots": [
+            "https://raw.githubusercontent.com/hsukvn/NTU-Computer-Vision/master/hw_9/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "roberts_operator_12.bmp"
+            },
+            {
+                "root": 0,
+                "src": "prewitt_edge_detector_24.bmp"
+            },
+            {
+                "root": 0,
+                "src": "sobel_ege_detector_38.bmp"
+            },
+            {
+                "root": 0,
+                "src": "frei_chen_gradient_operator_30.bmp"
+            },
+            {
+                "root": 0,
+                "src": "kirsch_compass_operator_135.bmp"
+            },
+            {
+                "root": 0,
+                "src": "robinson_compass_operator_43.bmp"
+            },
+            {
+                "root": 0,
+                "src": "nevatia_babu_operator_12500.bmp"
+            }
+        ]
+    }
+]

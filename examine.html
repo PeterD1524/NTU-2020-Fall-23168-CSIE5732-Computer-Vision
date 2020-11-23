@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <title>109-1_23168_CSIE5732</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Material+Icons">
+  <style>
+    body {
+      background-color: gainsboro;
+      font-family: 'Roboto';
+    }
+
+    input {
+      font-family: inherit;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      let body = document.getElementsByTagName('body')[0];
+      let url = new URL(window.location);
+      let params = url.searchParams;
+      if (params.has('local') && params.has('remote')) {
+        let localSrc = decodeURIComponent(params.get('local'));
+        let remoteSrc = decodeURIComponent(params.get('remote'));
+        let localCanvas = document.createElement('canvas');
+        let remoteCanvas = document.createElement('canvas');
+        let localCtx = localCanvas.getContext('2d');
+        let remoteCtx = remoteCanvas.getContext('2d');
+        let localImage = new Image();
+        let remoteImage = new Image();
+        let div = document.createElement('div');
+        div.style.marginBottom = '1em';
+        body.appendChild(div);
+        let localDiv = document.createElement('div');
+        let remoteDiv = document.createElement('div');
+        localDiv.style.marginRight = '1em';
+        div.appendChild(localDiv);
+        div.appendChild(remoteDiv);
+        localDiv.style.display = 'inline-block';
+        remoteDiv.style.display = 'inline-block';
+        let localTitle = document.createElement('div');
+        let remoteTitle = document.createElement('div');
+        localTitle.style.overflow = 'hidden';
+        remoteTitle.style.overflow = 'hidden';
+        if (params.has('localName')) {
+          localTitle.textContent = decodeURIComponent(params.get('localName'));
+          localTitle.style.paddingTop = '1em';
+          remoteTitle.style.paddingTop = '1em';
+          localTitle.style.paddingBottom = '1em';
+          remoteTitle.style.paddingBottom = '1em';
+        }
+        if (params.has('remoteName')) {
+          remoteTitle.textContent = decodeURIComponent(params.get('remoteName'));
+          localTitle.style.paddingTop = '1em';
+          remoteTitle.style.paddingTop = '1em';
+          localTitle.style.paddingBottom = '1em';
+          remoteTitle.style.paddingBottom = '1em';
+        }
+        localDiv.appendChild(localTitle);
+        remoteDiv.appendChild(remoteTitle);
+        localDiv.appendChild(localCanvas);
+        remoteDiv.appendChild(remoteCanvas);
+        let div_1 = document.createElement('div');
+        body.appendChild(div_1);
+        localImage.addEventListener('load', function (event) {
+          remoteImage.addEventListener('load', function (event) {
+            localCanvas.width = localImage.width;
+            remoteCanvas.width = remoteImage.width;
+            localCanvas.height = localImage.height;
+            remoteCanvas.height = remoteImage.height;
+            localTitle.style.width = localCanvas.width + 'px';
+            remoteTitle.style.width = localCanvas.width + 'px';
+            localCtx.drawImage(localImage, 0, 0);
+            remoteCtx.drawImage(remoteImage, 0, 0);
+            let localImageData = localCtx.getImageData(0, 0, localCanvas.width, remoteCanvas.height);
+            let remoteImageData = remoteCtx.getImageData(0, 0, remoteCanvas.width, remoteCanvas.height);
+            if (localImageData.width === remoteImageData.width && localImageData.height === remoteImageData.height) {
+              let mergeImageData = new ImageData(localImageData.width, localImageData.height);
+              for (let i = 0; i < mergeImageData.data.length; i = i + 4) {
+                let j = i;
+                for (; j < i + 4; j++) {
+                  if (localImageData.data[j] !== remoteImageData.data[j]) {
+                    break;
+                  }
+                }
+                if (j < i + 4) {
+                  mergeImageData.data[i] = 255;
+                  mergeImageData.data[i + 1] = 127;
+                  mergeImageData.data[i + 2] = 0;
+                  mergeImageData.data[i + 3] = 255;
+                } else {
+                  mergeImageData.data[i] = localImageData.data[i];
+                  mergeImageData.data[i + 1] = localImageData.data[i + 1];
+                  mergeImageData.data[i + 2] = localImageData.data[i + 2];
+                  mergeImageData.data[i + 3] = Math.floor(localImageData.data[i + 3] / 2);
+                }
+              }
+              let mergeCanvas = document.createElement('canvas');
+              mergeCanvas.style.backgroundColor = 'rgba(255, 255, 255, 255)';
+              mergeCanvas.style.marginRight = '1em';
+              mergeCanvas.width = localImageData.width;
+              mergeCanvas.height = localImageData.height;
+              let mergeCtx = mergeCanvas.getContext('2d');
+              mergeCtx.putImageData(mergeImageData, 0, 0);
+              let alterCanvas = document.createElement('canvas');
+              alterCanvas.width = localImageData.width;
+              alterCanvas.height = localImageData.height;
+              let alterCtx = alterCanvas.getContext('2d');
+              let alterImageData = [localImageData, remoteImageData];
+              let alterIndex = 0;
+              alterCtx.putImageData(alterImageData[alterIndex], 0, 0);
+              alterIndex = (alterIndex + 1) % 2;
+              setInterval(function () {
+                alterCtx.putImageData(alterImageData[alterIndex], 0, 0);
+                alterIndex = (alterIndex + 1) % 2;
+              }, 1000);
+              div_1.appendChild(mergeCanvas);
+              div_1.appendChild(alterCanvas);
+            }
+          });
+          remoteImage.src = remoteSrc;
+        });
+        localImage.src = localSrc;
+      }
+    });
+  </script>
+</body>
+
+</html>

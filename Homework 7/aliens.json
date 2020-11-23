@@ -1,0 +1,142 @@
+[
+    {
+        "user": "Alfons0329",
+        "repository": "CV_Fall_2019",
+        "url": "https://github.com/Alfons0329/CV_Fall_2019/tree/master/HW7",
+        "roots": [
+            "https://raw.githubusercontent.com/Alfons0329/CV_Fall_2019/master/HW7/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_thinned.png"
+            }
+        ]
+    },
+    {
+        "user": "JohnTseng0918",
+        "repository": "Computer-Vision-NTU-2019",
+        "url": "https://github.com/JohnTseng0918/Computer-Vision-NTU-2019/tree/master/hw7",
+        "roots": [
+            "https://raw.githubusercontent.com/JohnTseng0918/Computer-Vision-NTU-2019/master/hw7/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_thinning.bmp"
+            }
+        ]
+    },
+    {
+        "user": "JasonYao81000",
+        "repository": "CV2017Fall",
+        "url": "https://github.com/JasonYao81000/CV2017Fall/tree/master/HW7/HW7",
+        "roots": [
+            "https://raw.githubusercontent.com/JasonYao81000/CV2017Fall/master/HW7/HW7/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "thinning47.bmp"
+            }
+        ]
+    },
+    {
+        "user": "Mike-Zheng",
+        "repository": "NTU-Computer-Vision-I-",
+        "url": "https://github.com/Mike-Zheng/NTU-Computer-Vision-I-/tree/master/hw7",
+        "roots": [
+            "https://raw.githubusercontent.com/Mike-Zheng/NTU-Computer-Vision-I-/master/hw7/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "thinning.jpg"
+            }
+        ]
+    },
+    {
+        "user": "iamyuanchung",
+        "repository": "Fall-2015-CV",
+        "url": "https://github.com/iamyuanchung/Fall-2015-CV/tree/master/hw7",
+        "roots": [
+            "https://raw.githubusercontent.com/iamyuanchung/Fall-2015-CV/master/hw7/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena.thinned.bmp"
+            }
+        ]
+    },
+    {
+        "user": "sycLin",
+        "repository": "computer-vision-homework",
+        "url": "https://github.com/sycLin/computer-vision-homework/tree/master/hw7",
+        "roots": [
+            "https://raw.githubusercontent.com/sycLin/computer-vision-homework/master/hw7/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "thinned_64.bmp"
+            }
+        ]
+    },
+    {
+        "user": "sycLin",
+        "repository": "computer-vision-homework",
+        "url": "https://github.com/sycLin/computer-vision-homework/tree/master/hw7",
+        "roots": [
+            "https://raw.githubusercontent.com/sycLin/computer-vision-homework/master/hw7/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "thinned_ver2_64.bmp"
+            }
+        ]
+    },
+    {
+        "user": "LucienLee",
+        "repository": "CV-Homework-in-Python",
+        "url": "https://github.com/LucienLee/CV-Homework-in-Python/tree/master/hw7",
+        "roots": [
+            "https://raw.githubusercontent.com/LucienLee/CV-Homework-in-Python/master/hw7/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "thinning.jpg"
+            }
+        ]
+    },
+    {
+        "user": "hsukvn",
+        "repository": "NTU-Computer-Vision",
+        "url": "https://github.com/hsukvn/NTU-Computer-Vision/tree/master/hw_7",
+        "roots": [
+            "https://raw.githubusercontent.com/hsukvn/NTU-Computer-Vision/master/hw_7/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "thinning_lena.bmp"
+            }
+        ]
+    },
+    {
+        "user": "chunweiliu",
+        "repository": "ntu-cv",
+        "url": "https://github.com/chunweiliu/ntu-cv/tree/master/hw7/out",
+        "roots": [
+            "https://raw.githubusercontent.com/chunweiliu/ntu-cv/master/hw7/out/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_thin_6.png"
+            }
+        ]
+    }
+]

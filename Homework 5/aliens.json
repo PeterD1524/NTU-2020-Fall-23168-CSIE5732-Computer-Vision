@@ -1,0 +1,262 @@
+[
+    {
+        "user": "haribo0915",
+        "repository": "ComputerVision",
+        "url": "https://github.com/haribo0915/ComputerVision/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/haribo0915/ComputerVision/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "grayDilation.bmp"
+            },
+            {
+                "root": 0,
+                "src": "grayErosion.bmp"
+            },
+            {
+                "root": 0,
+                "src": "grayOpen.bmp"
+            },
+            {
+                "root": 0,
+                "src": "grayClose.bmp"
+            }
+        ]
+    },
+    {
+        "user": "Alfons0329",
+        "repository": "CV_Fall_2019",
+        "url": "https://github.com/Alfons0329/CV_Fall_2019/tree/master/HW5",
+        "roots": [
+            "https://raw.githubusercontent.com/Alfons0329/CV_Fall_2019/master/HW5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_dialated_cv.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_eroded_cv.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_opened_cv.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_closed_cv.png"
+            }
+        ]
+    },
+    {
+        "user": "JohnTseng0918",
+        "repository": "Computer-Vision-NTU-2019",
+        "url": "https://github.com/JohnTseng0918/Computer-Vision-NTU-2019/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/JohnTseng0918/Computer-Vision-NTU-2019/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_dilation.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_erosion.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_opening.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_closing.bmp"
+            }
+        ]
+    },
+    {
+        "user": "JasonYao81000",
+        "repository": "CV2017Fall",
+        "url": "https://github.com/JasonYao81000/CV2017Fall/tree/master/HW5/HW5",
+        "roots": [
+            "https://raw.githubusercontent.com/JasonYao81000/CV2017Fall/master/HW5/HW5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "dilation.bmp"
+            },
+            {
+                "root": 0,
+                "src": "erosion.bmp"
+            },
+            {
+                "root": 0,
+                "src": "opening.bmp"
+            },
+            {
+                "root": 0,
+                "src": "closing.bmp"
+            }
+        ]
+    },
+    {
+        "user": "Mike-Zheng",
+        "repository": "NTU-Computer-Vision-I-",
+        "url": "https://github.com/Mike-Zheng/NTU-Computer-Vision-I-/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/Mike-Zheng/NTU-Computer-Vision-I-/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "Dilation_gray.jpg"
+            },
+            {
+                "root": 0,
+                "src": "Erosion_gray.jpg"
+            },
+            {
+                "root": 0,
+                "src": "Opening_gray.jpg"
+            },
+            {
+                "root": 0,
+                "src": "Closing_gray.jpg"
+            }
+        ]
+    },
+    {
+        "user": "iamyuanchung",
+        "repository": "Fall-2015-CV",
+        "url": "https://github.com/iamyuanchung/Fall-2015-CV/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/iamyuanchung/Fall-2015-CV/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena.gray.dil.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.gray.ero.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.gray.open.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.gray.close.bmp"
+            }
+        ]
+    },
+    {
+        "user": "sycLin",
+        "repository": "computer-vision-homework",
+        "url": "https://github.com/sycLin/computer-vision-homework/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/sycLin/computer-vision-homework/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "Dilation.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Erosion.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Opening.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Closing.bmp"
+            }
+        ]
+    },
+    {
+        "user": "LucienLee",
+        "repository": "CV-Homework-in-Python",
+        "url": "https://github.com/LucienLee/CV-Homework-in-Python/tree/master/hw5",
+        "roots": [
+            "https://raw.githubusercontent.com/LucienLee/CV-Homework-in-Python/master/hw5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "dilation.jpg"
+            },
+            {
+                "root": 0,
+                "src": "erosion.jpg"
+            },
+            {
+                "root": 0,
+                "src": "opening.jpg"
+            },
+            {
+                "root": 0,
+                "src": "closing.jpg"
+            }
+        ]
+    },
+    {
+        "user": "hsukvn",
+        "repository": "NTU-Computer-Vision",
+        "url": "https://github.com/hsukvn/NTU-Computer-Vision/tree/master/hw_5",
+        "roots": [
+            "https://raw.githubusercontent.com/hsukvn/NTU-Computer-Vision/master/hw_5/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "di_lena.bmp"
+            },
+            {
+                "root": 0,
+                "src": "ero_lena.bmp"
+            },
+            {
+                "root": 0,
+                "src": "open_lena.bmp"
+            },
+            {
+                "root": 0,
+                "src": "close_lena.bmp"
+            }
+        ]
+    },
+    {
+        "user": "chunweiliu",
+        "repository": "ntu-cv",
+        "url": "https://github.com/chunweiliu/ntu-cv/tree/master/hw5/out",
+        "roots": [
+            "https://raw.githubusercontent.com/chunweiliu/ntu-cv/master/hw5/out/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_dilation.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_erosion.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_opening.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_closing.png"
+            }
+        ]
+    }
+]
