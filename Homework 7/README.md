@@ -1,4 +1,4 @@
-# Homework 7
+# [Homework 7](http://cv2.csie.ntu.edu.tw/CV/hw2019/hw7.html)
 ###### Thinning
 ### Due Date: 11/24
 ### Description
