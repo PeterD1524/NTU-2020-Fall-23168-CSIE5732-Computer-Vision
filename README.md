@@ -1,5 +1,5 @@
 # NTU-2020-Fall-23168-CSIE5732-Computer-Vision
-The site is published at .
+The site is published at https://peterd1524.github.io/NTU-2020-Fall-23168-CSIE5732-Computer-Vision/.
 ## Course Infomation
 ### 2020-Fall 23168 Computer Vision
 serial number | Curriculum Number | Class | Course title | Curriculum Identity Number
