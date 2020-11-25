@@ -31,3 +31,21 @@ Write a program which does:
 3. random number的使用限制是如何? 例如我使用python的random.gauss和random.uniform是可以的嗎?
    
    Random number 可任意call function，例如random.gauss、random.uniform、、np.random.normal, np.random.uniform等
+   
+4. 圖像的邊緣要怎麼處理?
+   
+   可以先做padding, 然後對邊界裡面pixel做filter,這樣結果大小就可跟原圖一樣
+   
+   Padding 方式可用reflect，或是你要用其他方式padding 也可以。
+   
+   可直接用opencv function，如:copyMakeBorder
+   
+   如果不處理邊界也可以，我改的時候不會因為你邊界不對就扣分。
+   
+5. 如何確定我的SNR有沒有算對
+   
+   提供兩張圖片給您做測試， lena.bmp, median_5x5.bmp
+   
+   SNR算出來的值大約會落在15.67369
+   
+   在算SNR之前要記得把影像從0~255 normalize到 0~1喔。
