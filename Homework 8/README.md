@@ -19,7 +19,9 @@ Write a program which does:
 1. 有規定報告的頁數嗎?
    
    本次作業報告可以僅附結果圖(4 noise，24處理過的影像，共28張)，及每張影像的SNR。不必附上解釋。
+   
    報告可以一張noise圖搭配6張對該noise圖處理的影像做排版，共四組，可以看出不同方法處理過後的差異。
+   
    [參考範例](http://cv2.csie.ntu.edu.tw/CV/_material/report8_sample_%E6%94%B9.docx)([pdf](http://cv2.csie.ntu.edu.tw/CV/_material/report8_sample_%E6%94%B9.pdf))
    
 2. 請問之前作業實作過的函式，以後作業可以直接 call 現成函式嗎?
