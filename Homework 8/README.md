@@ -1,7 +1,6 @@
 # [Homework 8](http://cv2.csie.ntu.edu.tw/CV/hw2019/hw8.html)
 ###### Noise Removal
-### Due Date: <span style="color:red">12/01</span>
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+### Due Date: 12/01
 ### Description
 Write a program which does:
  * (a) Generate noisy images with gaussian noise(amplitude of 10 and 30)
@@ -14,3 +13,19 @@ Write a program which does:
  * You must include your noisy image before processing and after processing in your report.
  * You must calculate the [signal-to-ratio (SNR)](http://cv2.csie.ntu.edu.tw/CV/_material/snr.pdf) for each instance and write them in your report. Use this formula if any conflicts occur.
  * You are to generate gaussian noise with amplitude of 10 and 30, salt-and-pepper noise with probability 0.1 and 0.05. You must use the 3x3, 5x5 box filter and median filter, both opening-then-closing and closing-then opening filter (using the octogonal 3-5-5-5-3 kernel, value = 0) on those images. You will produce 24 images and 4 noise figures.
+ * Here is a simple [pseudo normal random number generator](http://cv2.csie.ntu.edu.tw/CV/_material/PNRG.pdf) with mean 0 and variance 1. If your programming language provides an API for pseudo normal random numbers (i.e., randn in matlab, you may use it as an exception to hard code programming.
+ * You can use any programing language to implement homework, however, you'll get zero point if you just call existing library.
+### FAQ
+1. 有規定報告的頁數嗎?
+   
+   本次作業報告可以僅附結果圖(4 noise，24處理過的影像，共28張)，及每張影像的SNR。不必附上解釋。
+   報告可以一張noise圖搭配6張對該noise圖處理的影像做排版，共四組，可以看出不同方法處理過後的差異。
+   [參考範例](http://cv2.csie.ntu.edu.tw/CV/_material/report8_sample_%E6%94%B9.docx)([pdf](http://cv2.csie.ntu.edu.tw/CV/_material/report8_sample_%E6%94%B9.pdf))
+   
+2. 請問之前作業實作過的函式，以後作業可以直接 call 現成函式嗎?
+   
+   可以哦，如果是之前作業手刻過的函式，之後用到可以任意 call function.
+   
+3. random number的使用限制是如何? 例如我使用python的random.gauss和random.uniform是可以的嗎?
+   
+   Random number 可任意call function，例如random.gauss、random.uniform、、np.random.normal, np.random.uniform等
