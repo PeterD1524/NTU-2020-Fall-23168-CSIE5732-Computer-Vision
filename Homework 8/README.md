@@ -1,6 +1,7 @@
 # [Homework 8](http://cv2.csie.ntu.edu.tw/CV/hw2019/hw8.html)
 ###### Noise Removal
-Due Date: <span style="color:red">12/01</span>
+### Due Date: <span style="color:red">12/01</span>
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
 ### Description
 Write a program which does:
  * (a) Generate noisy images with gaussian noise(amplitude of 10 and 30)
