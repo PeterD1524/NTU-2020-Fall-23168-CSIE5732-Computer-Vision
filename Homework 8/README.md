@@ -48,4 +48,4 @@ Write a program which does:
    
    SNR算出來的值大約會落在15.67369
    
-   在算SNR之前要記得把影像從0~255 normalize到 0~1喔。
+   在算SNR之前要記得把影像從0\~255 normalize到 0~1喔。
