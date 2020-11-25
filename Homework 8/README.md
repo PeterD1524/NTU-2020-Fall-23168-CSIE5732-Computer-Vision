@@ -44,7 +44,7 @@ Write a program which does:
    
 5. 如何確定我的SNR有沒有算對
    
-   提供兩張圖片給您做測試， lena.bmp, median_5x5.bmp
+   提供兩張圖片給您做測試， [lena.bmp](http://cv2.csie.ntu.edu.tw/CV/hw2019/_material/lena.bmp), [median_5x5.bmp](http://cv2.csie.ntu.edu.tw/CV/hw2019/_material/median_5x5.bmp)
    
    SNR算出來的值大約會落在15.67369
    
