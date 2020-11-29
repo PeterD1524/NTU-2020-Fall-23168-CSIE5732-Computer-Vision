@@ -3,7 +3,7 @@
 ### Due Date: 12/08
 ### Description
 You are to implement following edge detectors with thresholds :
- * (a) Robert's Operator: 12
+ * `(a)` Robert's Operator: 12
  * (b) Prewitt's Edge Detector: 24
  * (c) Sobel's Edge Detector: 38
  * (d) Frei and Chen's Gradient Operator: 30
