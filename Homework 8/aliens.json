@@ -2091,70 +2091,488 @@
     {
         "user": "sycLin",
         "repository": "computer-vision-homework",
-        "url": "https://github.com/sycLin/computer-vision-homework/tree/master/hw7",
+        "url": "https://github.com/sycLin/computer-vision-homework/tree/master/hw8",
         "roots": [
-            "https://raw.githubusercontent.com/sycLin/computer-vision-homework/master/hw7/"
+            "https://raw.githubusercontent.com/sycLin/computer-vision-homework/master/hw8/"
         ],
         "files": [
             {
                 "root": 0,
-                "src": "thinned_64.bmp"
-            }
-        ]
-    },
-    {
-        "user": "sycLin",
-        "repository": "computer-vision-homework",
-        "url": "https://github.com/sycLin/computer-vision-homework/tree/master/hw7",
-        "roots": [
-            "https://raw.githubusercontent.com/sycLin/computer-vision-homework/master/hw7/"
-        ],
-        "files": [
+                "src": "g10.bmp"
+            },
             {
                 "root": 0,
-                "src": "thinned_ver2_64.bmp"
+                "src": "g30.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp10.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g10_box_3x3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g30_box_3x3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp10_box_3x3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp5_box_3x3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g10_box_5x5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g30_box_5x5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp10_box_5x5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp5_box_5x5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g10_median_3x3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g30_median_3x3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp10_median_3x3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp5_median_3x3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g10_median_5x5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g30_median_5x5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp10_median_5x5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp5_median_5x5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g10_open_then_close.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g30_open_then_close.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp10_open_then_close.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp5_open_then_close.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g10_close_then_open.bmp"
+            },
+            {
+                "root": 0,
+                "src": "g30_close_then_open.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp10_close_then_open.bmp"
+            },
+            {
+                "root": 0,
+                "src": "snp5_close_then_open.bmp"
             }
         ]
     },
     {
         "user": "LucienLee",
         "repository": "CV-Homework-in-Python",
-        "url": "https://github.com/LucienLee/CV-Homework-in-Python/tree/master/hw7",
+        "url": "https://github.com/LucienLee/CV-Homework-in-Python/tree/master/hw8",
         "roots": [
-            "https://raw.githubusercontent.com/LucienLee/CV-Homework-in-Python/master/hw7/"
+            "https://raw.githubusercontent.com/LucienLee/CV-Homework-in-Python/master/hw8/"
         ],
         "files": [
             {
                 "root": 0,
-                "src": "thinning.jpg"
+                "src": "gaussian_10.jpg"
+            },
+            {
+                "root": 0,
+                "src": "gaussian_30.jpg"
+            },
+            {
+                "root": 0,
+                "src": "salt_01.jpg"
+            },
+            {
+                "root": 0,
+                "src": "salt_005.jpg"
+            },
+            {
+                "root": 0,
+                "src": "box3x3_gaussian_10.jpg"
+            },
+            {
+                "root": 0,
+                "src": "box3x3_gaussian_30.jpg"
+            },
+            {
+                "root": 0,
+                "src": "box3x3_salt_01.jpg"
+            },
+            {
+                "root": 0,
+                "src": "box3x3_salt_005.jpg"
+            },
+            {
+                "root": 0,
+                "src": "box5x5_gaussian_10.jpg"
+            },
+            {
+                "root": 0,
+                "src": "box5x5_gaussian_30.jpg"
+            },
+            {
+                "root": 0,
+                "src": "box5x5_salt_01.jpg"
+            },
+            {
+                "root": 0,
+                "src": "box5x5_salt_005.jpg"
+            },
+            {
+                "root": 0,
+                "src": "median3x3_gaussian_10.jpg"
+            },
+            {
+                "root": 0,
+                "src": "median3x3_gaussian_30.jpg"
+            },
+            {
+                "root": 0,
+                "src": "median3x3_salt_01.jpg"
+            },
+            {
+                "root": 0,
+                "src": "median3x3_salt_005.jpg"
+            },
+            {
+                "root": 0,
+                "src": "median5x5_gaussian_10.jpg"
+            },
+            {
+                "root": 0,
+                "src": "median5x5_gaussian_30.jpg"
+            },
+            {
+                "root": 0,
+                "src": "median5x5_salt_01.jpg"
+            },
+            {
+                "root": 0,
+                "src": "median5x5_salt_005.jpg"
+            },
+            {
+                "root": 0,
+                "src": "openingThenClosing_gaussian_10.jpg"
+            },
+            {
+                "root": 0,
+                "src": "openingThenClosing_gaussian_30.jpg"
+            },
+            {
+                "root": 0,
+                "src": "openingThenClosing_salt_01.jpg"
+            },
+            {
+                "root": 0,
+                "src": "openingThenClosing_salt_005.jpg"
+            },
+            {
+                "root": 0,
+                "src": "closingThenOpening_gaussian_10.jpg"
+            },
+            {
+                "root": 0,
+                "src": "closingThenOpening_gaussian_30.jpg"
+            },
+            {
+                "root": 0,
+                "src": "closingThenOpening_salt_01.jpg"
+            },
+            {
+                "root": 0,
+                "src": "closingThenOpening_salt_005.jpg"
             }
         ]
     },
     {
         "user": "hsukvn",
         "repository": "NTU-Computer-Vision",
-        "url": "https://github.com/hsukvn/NTU-Computer-Vision/tree/master/hw_7",
+        "url": "https://github.com/hsukvn/NTU-Computer-Vision/tree/master/hw_8",
         "roots": [
-            "https://raw.githubusercontent.com/hsukvn/NTU-Computer-Vision/master/hw_7/"
+            "https://raw.githubusercontent.com/hsukvn/NTU-Computer-Vision/master/hw_8/"
         ],
         "files": [
             {
                 "root": 0,
-                "src": "thinning_lena.bmp"
+                "src": "GaussianNoise_10.bmp"
+            },
+            {
+                "root": 0,
+                "src": "GaussianNoise_30.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_1.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_05.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Gaussian10_box3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Gaussian30_box3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_1_box3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_05_box3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Gaussian10_box5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Gaussian30_box5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_1_box5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_05_box5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Gaussian10_median3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Gaussian30_median3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_1_median3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_05_median3.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Gaussian10_median5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Gaussian30_median5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_1_median5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_05_median5.bmp"
+            },
+            {
+                "root": 0,
+                "src": "GaussianNoise10_openclose.bmp"
+            },
+            {
+                "root": 0,
+                "src": "GaussianNoise30_openclose.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_1_openclose.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_05_openclose.bmp"
+            },
+            {
+                "root": 0,
+                "src": "GaussianNoise10_closeopen.bmp"
+            },
+            {
+                "root": 0,
+                "src": "GaussianNoise30_closeopen.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_1_closeopen.bmp"
+            },
+            {
+                "root": 0,
+                "src": "SaltandPepper_05_closeopen.bmp"
             }
         ]
     },
     {
         "user": "chunweiliu",
         "repository": "ntu-cv",
-        "url": "https://github.com/chunweiliu/ntu-cv/tree/master/hw7/out",
+        "url": "https://github.com/chunweiliu/ntu-cv/tree/master/hw8/out",
         "roots": [
-            "https://raw.githubusercontent.com/chunweiliu/ntu-cv/master/hw7/out/"
+            "https://raw.githubusercontent.com/chunweiliu/ntu-cv/master/hw8/out/"
         ],
         "files": [
             {
                 "root": 0,
-                "src": "lena_thin.png"
+                "src": "lena_gaussian10.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian30.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw01.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw005.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian10_box3.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian30_box3.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw01_box3.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw005_box3.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian10_box5.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian30_box5.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw01_box5.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw005_box5.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian10_med3.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian30_med3.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw01_med3.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw005_med3.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian10_med5.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian30_med5.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw01_med5.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw005_med5.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian10_open.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian30_open.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw01_open.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw005_open.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian10_close.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_gaussian30_close.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw01_close.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_bw005_close.png"
             }
         ]
     }
