@@ -2,38 +2,38 @@
     {
         "user": "PeterD1524",
         "repository": "NTU-2020-Fall-23168-CSIE5732-Computer-Vision",
-        "url": "https://github.com/Alfons0329/CV_Fall_2019/tree/master/HW9",
+        "url": "https://github.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision/tree/main/Homework%209/aliens/CH7_HW9_10%E8%AC%9B%E8%A7%A3(v4)",
         "roots": [
-            "https://raw.githubusercontent.com/Alfons0329/CV_Fall_2019/master/HW9/"
+            "https://raw.githubusercontent.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision/main/Homework%209/aliens/CH7_HW9_10%E8%AC%9B%E8%A7%A3(v4)/"
         ],
         "files": [
             {
                 "root": 0,
-                "src": "lena_Robert.png"
+                "src": "CH7_HW9_10講解(v4)-016-020.png"
             },
             {
                 "root": 0,
-                "src": "lena_Prewitt.png"
+                "src": "CH7_HW9_10講解(v4)-018-028.png"
             },
             {
                 "root": 0,
-                "src": "lena_Sobel.png"
+                "src": "CH7_HW9_10講解(v4)-019-032.png"
             },
             {
                 "root": 0,
-                "src": "lena_Frei_Chen.png"
+                "src": "CH7_HW9_10講解(v4)-020-036.png"
             },
             {
                 "root": 0,
-                "src": "lena_Kirsch.png"
+                "src": "CH7_HW9_10講解(v4)-021-040.png"
             },
             {
                 "root": 0,
-                "src": "lena_Robinson.png"
+                "src": "CH7_HW9_10講解(v4)-022-044.png"
             },
             {
                 "root": 0,
-                "src": "lena_NB.png"
+                "src": "CH7_HW9_10講解(v4)-023-048.png"
             }
         ]
     },
