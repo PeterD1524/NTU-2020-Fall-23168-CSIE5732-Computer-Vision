@@ -1,1 +1,242 @@
-[{"user":"Alfons0329","repository":"CV_Fall_2019","url":"https://github.com/Alfons0329/CV_Fall_2019/tree/master/HW10","roots":["https://raw.githubusercontent.com/Alfons0329/CV_Fall_2019/master/HW10/"],"files":[{"root":0,"src":"lena_laplace_1.png"},{"root":0,"src":"lena_laplace_2.png"},{"root":0,"src":"lena_min_var_laplace.png"},{"root":0,"src":"lena_laplace_of_gaussian.png"},{"root":0,"src":"lena_dif_of_gaussian.png"}]},{"user":"JohnTseng0918","repository":"Computer-Vision-NTU-2019","url":"https://github.com/JohnTseng0918/Computer-Vision-NTU-2019/tree/master/hw10","roots":["https://raw.githubusercontent.com/JohnTseng0918/Computer-Vision-NTU-2019/master/hw10/"],"files":[{"root":0,"src":"lena_laplace1.bmp"},{"root":0,"src":"lena_laplace2.bmp"},{"root":0,"src":"lena_minVarLaplace.bmp"},{"root":0,"src":"lena_Gaulaplace.bmp"},{"root":0,"src":"lena_DiffofGau.bmp"}]},{"user":"JasonYao81000","repository":"CV2017Fall","url":"https://github.com/JasonYao81000/CV2017Fall/tree/master/HW10/HW10","roots":["https://raw.githubusercontent.com/JasonYao81000/CV2017Fall/master/HW10/HW10/"],"files":[{"root":0,"src":"Laplacian Mask 1.bmp"},{"root":0,"src":"Laplacian Mask 2.bmp"},{"root":0,"src":"min-Variance Laplacian.bmp"},{"root":0,"src":"Laplacian of Gaussian.bmp"},{"root":0,"src":"Difference of Gaussian.bmp"}]},{"user":"iamyuanchung","repository":"Fall-2015-CV","url":"https://github.com/iamyuanchung/Fall-2015-CV/tree/master/hw10","roots":["https://raw.githubusercontent.com/iamyuanchung/Fall-2015-CV/master/hw10/"],"files":[{"root":0,"src":"lena.laplacian.type1.15.bmp"},{"root":0,"src":"lena.laplacian.type2.15.bmp"},{"root":0,"src":"lena.min.var.laplacian.20.bmp"},{"root":0,"src":"lena.laplacian.of.gaussian.3000.bmp"},{"root":0,"src":"lena.difference.of.gaussian.1.bmp"}]},{"user":"sycLin","repository":"computer-vision-homework","url":"https://github.com/sycLin/computer-vision-homework/tree/master/hw10","roots":["https://raw.githubusercontent.com/sycLin/computer-vision-homework/master/hw10/"],"files":[{"root":0,"src":"laplacian_1.bmp"},{"root":0,"src":"laplacian_2.bmp"},{"root":0,"src":"min_var_laplacian.bmp"},{"root":0,"src":"laplacian_of_gaussian.bmp"},{"root":0,"src":"diff_of_gaussian.bmp"}]},{"user":"LucienLee","repository":"CV-Homework-in-Python","url":"https://github.com/LucienLee/CV-Homework-in-Python/tree/master/hw10","roots":["https://raw.githubusercontent.com/LucienLee/CV-Homework-in-Python/master/hw10/"],"files":[{"root":0,"src":"laplacian1.jpg"},{"root":0,"src":"laplacian2.jpg"},{"root":0,"src":"minimum.jpg"},{"root":0,"src":"LOG.jpg"},{"root":0,"src":"DOG.jpg"}]},{"user":"hsukvn","repository":"NTU-Computer-Vision","url":"https://github.com/hsukvn/NTU-Computer-Vision/tree/master/hw_10","roots":["https://raw.githubusercontent.com/hsukvn/NTU-Computer-Vision/master/hw_10/"],"files":[{"root":0,"src":"Lap_mask1_25.bmp"},{"root":0,"src":"Lap_mask2_16.bmp"},{"root":0,"src":"mv_Lap_12.bmp"},{"root":0,"src":"Lap_of_Gaussian_8000.bmp"},{"root":0,"src":"Diff_of_Gaussian_7.bmp"}]}]
+[
+    {
+        "user": "PeterD1524",
+        "repository": "NTU-2020-Fall-23168-CSIE5732-Computer-Vision",
+        "url": "https://github.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision/tree/main/Homework%2010/aliens/CH7_HW9_10%E8%AC%9B%E8%A7%A3(v4).pdf_images",
+        "roots": [
+            "https://raw.githubusercontent.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision/main/Homework%2010/aliens/CH7_HW9_10%E8%AC%9B%E8%A7%A3(v4).pdf_images/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "CH7_HW9_10講解(v4).pdf-025-052.png"
+            },
+            {
+                "root": 0,
+                "src": "CH7_HW9_10講解(v4).pdf-025-053.png"
+            },
+            {
+                "root": 0,
+                "src": "CH7_HW9_10講解(v4).pdf-026-055.png"
+            },
+            {
+                "root": 0,
+                "src": "CH7_HW9_10講解(v4).pdf-027-057.png"
+            },
+            {
+                "root": 0,
+                "src": "CH7_HW9_10講解(v4).pdf-028-059.png"
+            }
+        ]
+    },
+    {
+        "user": "Alfons0329",
+        "repository": "CV_Fall_2019",
+        "url": "https://github.com/Alfons0329/CV_Fall_2019/tree/master/HW10",
+        "roots": [
+            "https://raw.githubusercontent.com/Alfons0329/CV_Fall_2019/master/HW10/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_laplace_1.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_laplace_2.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_min_var_laplace.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_laplace_of_gaussian.png"
+            },
+            {
+                "root": 0,
+                "src": "lena_dif_of_gaussian.png"
+            }
+        ]
+    },
+    {
+        "user": "JohnTseng0918",
+        "repository": "Computer-Vision-NTU-2019",
+        "url": "https://github.com/JohnTseng0918/Computer-Vision-NTU-2019/tree/master/hw10",
+        "roots": [
+            "https://raw.githubusercontent.com/JohnTseng0918/Computer-Vision-NTU-2019/master/hw10/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena_laplace1.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_laplace2.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_minVarLaplace.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_Gaulaplace.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena_DiffofGau.bmp"
+            }
+        ]
+    },
+    {
+        "user": "JasonYao81000",
+        "repository": "CV2017Fall",
+        "url": "https://github.com/JasonYao81000/CV2017Fall/tree/master/HW10/HW10",
+        "roots": [
+            "https://raw.githubusercontent.com/JasonYao81000/CV2017Fall/master/HW10/HW10/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "Laplacian Mask 1.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Laplacian Mask 2.bmp"
+            },
+            {
+                "root": 0,
+                "src": "min-Variance Laplacian.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Laplacian of Gaussian.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Difference of Gaussian.bmp"
+            }
+        ]
+    },
+    {
+        "user": "iamyuanchung",
+        "repository": "Fall-2015-CV",
+        "url": "https://github.com/iamyuanchung/Fall-2015-CV/tree/master/hw10",
+        "roots": [
+            "https://raw.githubusercontent.com/iamyuanchung/Fall-2015-CV/master/hw10/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "lena.laplacian.type1.15.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.laplacian.type2.15.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.min.var.laplacian.20.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.laplacian.of.gaussian.3000.bmp"
+            },
+            {
+                "root": 0,
+                "src": "lena.difference.of.gaussian.1.bmp"
+            }
+        ]
+    },
+    {
+        "user": "sycLin",
+        "repository": "computer-vision-homework",
+        "url": "https://github.com/sycLin/computer-vision-homework/tree/master/hw10",
+        "roots": [
+            "https://raw.githubusercontent.com/sycLin/computer-vision-homework/master/hw10/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "laplacian_1.bmp"
+            },
+            {
+                "root": 0,
+                "src": "laplacian_2.bmp"
+            },
+            {
+                "root": 0,
+                "src": "min_var_laplacian.bmp"
+            },
+            {
+                "root": 0,
+                "src": "laplacian_of_gaussian.bmp"
+            },
+            {
+                "root": 0,
+                "src": "diff_of_gaussian.bmp"
+            }
+        ]
+    },
+    {
+        "user": "LucienLee",
+        "repository": "CV-Homework-in-Python",
+        "url": "https://github.com/LucienLee/CV-Homework-in-Python/tree/master/hw10",
+        "roots": [
+            "https://raw.githubusercontent.com/LucienLee/CV-Homework-in-Python/master/hw10/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "laplacian1.jpg"
+            },
+            {
+                "root": 0,
+                "src": "laplacian2.jpg"
+            },
+            {
+                "root": 0,
+                "src": "minimum.jpg"
+            },
+            {
+                "root": 0,
+                "src": "LOG.jpg"
+            },
+            {
+                "root": 0,
+                "src": "DOG.jpg"
+            }
+        ]
+    },
+    {
+        "user": "hsukvn",
+        "repository": "NTU-Computer-Vision",
+        "url": "https://github.com/hsukvn/NTU-Computer-Vision/tree/master/hw_10",
+        "roots": [
+            "https://raw.githubusercontent.com/hsukvn/NTU-Computer-Vision/master/hw_10/"
+        ],
+        "files": [
+            {
+                "root": 0,
+                "src": "Lap_mask1_25.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Lap_mask2_16.bmp"
+            },
+            {
+                "root": 0,
+                "src": "mv_Lap_12.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Lap_of_Gaussian_8000.bmp"
+            },
+            {
+                "root": 0,
+                "src": "Diff_of_Gaussian_7.bmp"
+            }
+        ]
+    }
+]
