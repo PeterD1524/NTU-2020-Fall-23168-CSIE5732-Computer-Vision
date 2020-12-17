@@ -2,6 +2,7 @@ https://github.com/bearduen/ComputerVision
 https://github.com/cyl9011/NTU-CSIE5732-Computer-Vision
 https://github.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision
 https://github.com/seventychi/ntu-csie-computer-vision
+https://github.com/Wei85727/Computer-Vision
 https://github.com/Alfons0329/CV_Fall_2019
 https://github.com/emu1200tra/NTU-CSIE-Computer-Vision-2019
 https://github.com/haribo0915/ComputerVision

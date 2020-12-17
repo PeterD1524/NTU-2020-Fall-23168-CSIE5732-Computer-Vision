@@ -29,6 +29,7 @@ serial number | Curriculum Number | Class | Course title | Curriculum Identity N
  * [cyl9011](https://github.com/cyl9011) / **[NTU-CSIE5732-Computer-Vision](https://github.com/cyl9011/NTU-CSIE5732-Computer-Vision)**
  * [PeterD1524](https://github.com/PeterD1524) / **[NTU-2020-Fall-23168-CSIE5732-Computer-Vision](https://github.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision)** (2020)
  * [seventychi](https://github.com/seventychi) / **[ntu-csie-computer-vision](https://github.com/seventychi/ntu-csie-computer-vision)** (2020)
+ * [Wei85727](https://github.com/Wei85727) / **[Computer-Vision](https://github.com/Wei85727/Computer-Vision)** (2020)
  * [Alfons0329](https://github.com/Alfons0329) / **[CV_Fall_2019](https://github.com/Alfons0329/CV_Fall_2019)** (2019)
  * [emu1200tra](https://github.com/emu1200tra) / **[NTU-CSIE-Computer-Vision-2019](https://github.com/emu1200tra/NTU-CSIE-Computer-Vision-2019)** (2019)
  * [haribo0915](https://github.com/haribo0915) / **[ComputerVision](https://github.com/haribo0915/ComputerVision)**
