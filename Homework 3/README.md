@@ -9,6 +9,8 @@ Write a program to generate images and  histograms:
 ### Announcement
  * You may use any programming language of your choice to implement the functions required in assignment #3, provided that you do not use any library calls except for basic image IO (e.g. OpenCV).
  * Grading policy
+   * Please include the histogram of the final image. (As in the previous assignment).
+   * You have to draw the histogram. The part where you calculate the histogram must be done hardcored, but you may output your statistics data to a file and use auxiliary program to assist you in drawing the bar graphs, i.e., Excel, gnuplot, sigmaplot, matplotlib, matlab.
  * Hint: You can use any programing language to implement homework. However don't just call libraries, if just call libraries you will get zero point.
 ### FAQ
 1. 有規定報告的頁數嗎?
