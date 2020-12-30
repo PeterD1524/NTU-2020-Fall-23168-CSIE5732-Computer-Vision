@@ -61,9 +61,9 @@ Part2. Write a program or use software to do the following requirement.
    
 10. 請問part2用如果也用程式寫，是否有限定函式?
    
-   沒有限制哦，如果part2要用程式來完成，並不限制函式。
+    沒有限制哦，如果part2要用程式來完成，並不限制函式。
    
 11. Part1.(c) 的 diagonal mirrored 是要鏡射還是翻轉?
    
-   因為有許多同學會有誤會，因此我們將題目改成 diagonal flip，是要對角的翻轉
+    因為有許多同學會有誤會，因此我們將題目改成 diagonal flip，是要對角的翻轉
    
