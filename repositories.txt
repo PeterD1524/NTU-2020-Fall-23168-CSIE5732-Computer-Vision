@@ -38,6 +38,7 @@ https://github.com/iamyuanchung/Fall-2015-CV
 https://github.com/sycLin/computer-vision-homework
 https://github.com/sycLin/cv-homework-checking-website
 https://github.com/sycLin/cvHW5-test-program
+https://github.com/sycLin/cvHW6-test-program
 https://github.com/huw12313212/CVHW2
 https://github.com/huw12313212/NTU-CV-HW1
 https://github.com/huw12313212/NTU-CV-HW10

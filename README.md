@@ -65,6 +65,7 @@ serial number | Curriculum Number | Class | Course title | Curriculum Identity N
  * [sycLin](https://github.com/sycLin) / **[computer-vision-homework](https://github.com/sycLin/computer-vision-homework)** (2015)
  * [sycLin](https://github.com/sycLin) / **[cv-homework-checking-website](https://github.com/sycLin/cv-homework-checking-website)** (2015)
  * [sycLin](https://github.com/sycLin) / **[cvHW5-test-program](https://github.com/sycLin/cvHW5-test-program)** (2015)
+ * [sycLin](https://github.com/sycLin) / **[cvHW6-test-program](https://github.com/sycLin/cvHW6-test-program)** (2015)
  * [huw12313212](https://github.com/huw12313212) / **[CVHW2](https://github.com/huw12313212/CVHW2)** (2014)
  * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW1](https://github.com/huw12313212/NTU-CV-HW1)** (2014)
  * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW10](https://github.com/huw12313212/NTU-CV-HW10)** (2014)
