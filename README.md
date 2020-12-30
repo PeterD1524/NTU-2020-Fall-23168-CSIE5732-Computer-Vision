@@ -30,20 +30,26 @@ serial number | Curriculum Number | Class | Course title | Curriculum Identity N
  * [cyl9011](https://github.com/cyl9011) / **[NTU-CSIE5732-Computer-Vision](https://github.com/cyl9011/NTU-CSIE5732-Computer-Vision)**
  * [PeterD1524](https://github.com/PeterD1524) / **[NTU-2020-Fall-23168-CSIE5732-Computer-Vision](https://github.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision)** (2020)
  * [seventychi](https://github.com/seventychi) / **[ntu-csie-computer-vision](https://github.com/seventychi/ntu-csie-computer-vision)** (2020)
+ * [Sixy1204](https://github.com/Sixy1204) / **[NTU_CV2020](https://github.com/Sixy1204/NTU_CV2020)** (2020)
  * [Wei85727](https://github.com/Wei85727) / **[Computer-Vision](https://github.com/Wei85727/Computer-Vision)** (2020)
  * [Alfons0329](https://github.com/Alfons0329) / **[CV_Fall_2019](https://github.com/Alfons0329/CV_Fall_2019)** (2019)
+ * [angiecodinghub](https://github.com/angiecodinghub) / **[NTU_CV2019](https://github.com/angiecodinghub/NTU_CV2019)** (2019)
  * [emu1200tra](https://github.com/emu1200tra) / **[NTU-CSIE-Computer-Vision-2019](https://github.com/emu1200tra/NTU-CSIE-Computer-Vision-2019)** (2019)
  * [haribo0915](https://github.com/haribo0915) / **[ComputerVision](https://github.com/haribo0915/ComputerVision)**
  * [JohnTseng0918](https://github.com/JohnTseng0918) / **[NTU-Computer-Vision-2019](https://github.com/JohnTseng0918/NTU-Computer-Vision-2019)** (2019)
  * [neil1373](https://github.com/neil1373) / **[CV2019](https://github.com/neil1373/CV2019)** (2019)
+ * [oldman3483](https://github.com/oldman3483) / **[10801NTUCV](https://github.com/oldman3483/10801NTUCV)** (2019)
  * [pokedigi596](https://github.com/pokedigi596) / **[NTU-CSIE-Computer-Vision-2019](https://github.com/pokedigi596/NTU-CSIE-Computer-Vision-2019)** (2019)
  * [steakforlife](https://github.com/steakforlife) / **[2019NTU_ComputerVision](https://github.com/steakforlife/2019NTU_ComputerVision)** (2019)
  * [yfancc20](https://github.com/yfancc20) / **[hw-computer-vision](https://github.com/yfancc20/hw-computer-vision)** (2019)
+ * [awilliea](https://github.com/awilliea) / **[NTU_CV](https://github.com/awilliea/NTU_CV)**
  * [CheeAn-Yu](https://github.com/CheeAn-Yu) / **[NTU-Computer-Vision](https://github.com/CheeAn-Yu/NTU-Computer-Vision)** (2018)
+ * [cyhu1014](https://github.com/cyhu1014) / **[ntu_cv_hw](https://github.com/cyhu1014/ntu_cv_hw)**
  * [itsmystyle](https://github.com/itsmystyle) / **[Computer-Vision](https://github.com/itsmystyle/Computer-Vision)** (2018)
  * [mai58587](https://github.com/mai58587) / **[ntu-computer-vision-hw](https://github.com/mai58587/ntu-computer-vision-hw)**
  * [mhfu0](https://github.com/mhfu0) / **[CV2018](https://github.com/mhfu0/CV2018)** (2018)
  * [Nicetiesniceties](https://github.com/Nicetiesniceties) / **[ntucsie-Computer-Vision1](https://github.com/Nicetiesniceties/ntucsie-Computer-Vision1)** (2018)
+ * [PRCinguhou](https://github.com/PRCinguhou) / **[NTU_CV_HW](https://github.com/PRCinguhou/NTU_CV_HW)**
  * [shownlin](https://github.com/shownlin) / **[ComputerVision](https://github.com/shownlin/ComputerVision)** (2018)
  * [yuan3675](https://github.com/yuan3675) / **[ComputerVisionHW](https://github.com/yuan3675/ComputerVisionHW)**
  * [csdai0324](https://github.com/csdai0324) / **[NTUCV2017Fall](https://github.com/csdai0324/NTUCV2017Fall)** (2017)
@@ -54,9 +60,21 @@ serial number | Curriculum Number | Class | Course title | Curriculum Identity N
  * [Alexpon](https://github.com/Alexpon) / **[Computer_Vision](https://github.com/Alexpon/Computer_Vision)** (2016)
  * [Mike-Zheng](https://github.com/Mike-Zheng) / **[NTU-Computer-Vision-I-](https://github.com/Mike-Zheng/NTU-Computer-Vision-I-)** (2016)
  * [ntu-homeworks](https://github.com/ntu-homeworks) / **[CV-homework](https://github.com/ntu-homeworks/CV-homework)**
+ * [rgrg2345](https://github.com/rgrg2345) / **[CV-105-1](https://github.com/rgrg2345/CV-105-1)** (2016)
  * [iamyuanchung](https://github.com/iamyuanchung) / **[Fall-2015-CV](https://github.com/iamyuanchung/Fall-2015-CV)** (2015)
  * [sycLin](https://github.com/sycLin) / **[computer-vision-homework](https://github.com/sycLin/computer-vision-homework)** (2015)
  * [sycLin](https://github.com/sycLin) / **[cv-homework-checking-website](https://github.com/sycLin/cv-homework-checking-website)** (2015)
+ * [sycLin](https://github.com/sycLin) / **[cvHW5-test-program](https://github.com/sycLin/cvHW5-test-program)** (2015)
+ * [huw12313212](https://github.com/huw12313212) / **[CVHW2](https://github.com/huw12313212/CVHW2)** (2014)
+ * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW1](https://github.com/huw12313212/NTU-CV-HW1)** (2014)
+ * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW10](https://github.com/huw12313212/NTU-CV-HW10)** (2014)
+ * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW3](https://github.com/huw12313212/NTU-CV-HW3)** (2014)
+ * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW4](https://github.com/huw12313212/NTU-CV-HW4)** (2014)
+ * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW5](https://github.com/huw12313212/NTU-CV-HW5)** (2014)
+ * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW6](https://github.com/huw12313212/NTU-CV-HW6)** (2014)
+ * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW7](https://github.com/huw12313212/NTU-CV-HW7)** (2014)
+ * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW8](https://github.com/huw12313212/NTU-CV-HW8)** (2014)
+ * [huw12313212](https://github.com/huw12313212) / **[NTU-CV-HW9](https://github.com/huw12313212/NTU-CV-HW9)** (2014)
  * [LucienLee](https://github.com/LucienLee) / **[CV-Homework-in-Python](https://github.com/LucienLee/CV-Homework-in-Python)**
  * [hsukvn](https://github.com/hsukvn) / **[NTU-Computer-Vision](https://github.com/hsukvn/NTU-Computer-Vision)**
  * [chunweiliu](https://github.com/chunweiliu) / **[ntu-cv](https://github.com/chunweiliu/ntu-cv)** (2009)
