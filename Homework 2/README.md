@@ -12,6 +12,8 @@ Write a program to generate:
  * You have to draw the histogram. The part where you calculate the histogram must be done hardcored, but you may output your statistics data to a file and use auxiliary program to assist you in drawing the bar graphs, i.e., Excel, gnuplot, sigmaplot, matplotlib, matlab.
  * For the connected components, please use 500 pixels as a threshold. Omit regions that have a pixel count less than 500.
  * Grading policy
+    * Failing to provide a report will reduce your grade by 1~2 levels.
+    * Using restricted functions within your program (unless specified) will result in a failure of your work.
  * Hint: You can use any programing language to implement homework. However don't just call libraries, if just call libraries you will get zero point.
 ### FAQ
 1. 畫十字、bounding box的部分可否直接call library?
