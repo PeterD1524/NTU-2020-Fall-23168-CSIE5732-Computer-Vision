@@ -26,6 +26,7 @@ serial number | Curriculum Number | Class | Course title | Curriculum Identity N
  * 選課限制條件：限學士班三年級以上,本校修課人數上限：116人
 ## Related Repositories
  * [bearduen](https://github.com/bearduen) / **[ComputerVision](https://github.com/bearduen/ComputerVision)**
+ * [ChengDe1996](https://github.com/ChengDe1996) / **[NTU-CV](https://github.com/ChengDe1996/NTU-CV)** (2020)
  * [cyl9011](https://github.com/cyl9011) / **[NTU-CSIE5732-Computer-Vision](https://github.com/cyl9011/NTU-CSIE5732-Computer-Vision)**
  * [PeterD1524](https://github.com/PeterD1524) / **[NTU-2020-Fall-23168-CSIE5732-Computer-Vision](https://github.com/PeterD1524/NTU-2020-Fall-23168-CSIE5732-Computer-Vision)** (2020)
  * [seventychi](https://github.com/seventychi) / **[ntu-csie-computer-vision](https://github.com/seventychi/ntu-csie-computer-vision)** (2020)
